@@ -14,7 +14,7 @@ public class OrderController {
         this.orderService = orderService;
     }
 
-    // TODO 결제와 동시에 주문이 들어가니까 표현계층은 PaymentController를 이용해야하는 거 아닐까?
+    // TODO 결제와 동시에 주문이 들어가니까 표현계층은 PaymentController를 이용해야하는 거 아닐까? -> 예
 //    @PostMapping
 //    public OrderDto createOrder(@RequestParam CustomerId customerId,
 //                                @RequestParam List<OrderLine> orderLine,
